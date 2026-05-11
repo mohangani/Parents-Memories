@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>జీవిత స్మృతులు — ప్రేమ ప్రయాణం</title>
+  <meta name="description" content="కుటుంబ జ్ఞాపకాలు, ప్రేమ మరియు కలిసి ఉండటం యొక్క హృదయపూర్వక వేడుక.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💕</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ═══════ PRELOADER ═══════ -->
+  <div id="preloader">
+    <div class="preloader-mandala"></div>
+    <div class="preloader-text">జ్ఞాపకాలు లోడ్ అవుతున్నాయి</div>
+  </div>
+
+  <!-- ═══════ NAVIGATION ═══════ -->
+  <nav id="mainNav">
+    <a href="#" class="nav-logo">జీవిత<span>స్మృతులు</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#marriage">💍 పెళ్ళి</a></li>
+      <li><a href="#quotes">మా కథ</a></li>
+      <li><a href="#milestones">మైలురాళ్ళు</a></li>
+      <li><a href="#albums">ఆల్బమ్‌లు</a></li>
+      <li><a href="#dedication">అంకితం</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══════ HERO ═══════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-corner tl"></div>
+    <div class="hero-corner tr"></div>
+    <div class="hero-corner bl"></div>
+    <div class="hero-corner br"></div>
+
+    <div class="hero-content">
+      <!-- <p class="hero-subtitle-top">పెళ్ళిరోజు శుభాకాంక్షలు</p> -->
+      <!-- <h1 class="hero-title">జీవిత<em>స్మృతులు</em></h1> -->
+      <h1 class="hero-title">పెళ్ళిరోజు<em>శుభాకాంక్షలు</em></h1>
+
+      <p class="hero-names">
+        <span id="heroName1">అమ్మ</span>
+        <span class="ampersand">&amp;</span>
+        <span id="heroName2">నాన్న</span>
+      </p>
+      <p class="hero-date" id="heroDate">❋ 1992-May-12 ❋</p>
+
+      <div class="hero-ornament-center">
+        <div class="ornament-line"><span>✦</span></div>
+      </div>
+
+      <p class="hero-message" id="heroMessage"></p>
+
+      <div class="hero-scroll">
+        <a href="#marriage">
+          <span>చూడండి</span>
+          <div class="scroll-line"></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ MARRIAGE GALLERY (Main - Eager Loaded) ═══════ -->
+  <section class="gallery-section marriage-gallery" id="marriage">
+    <div class="section-header fade-in">
+      <p class="section-label">💍 పవిత్ర బంధం</p>
+      <h2 class="section-title">పెళ్ళి <em>ఫోటోలు</em></h2>
+      <p class="section-desc">మా అమ్మ నాన్న పెళ్ళి రోజు అందమైన జ్ఞాపకాలు</p>
+      <div class="ornament-line"><span>✦</span></div>
+    </div>
+    <div class="gallery-grid" id="marriageGrid"></div>
+  </section>
+
+  <!-- ═══════ QUOTES CAROUSEL ═══════ -->
+  <section class="quotes-section" id="quotes">
+    <div class="section-header fade-in">
+      <p class="section-label" style="color:var(--golden-light);">ప్రేమ మాటలు</p>
+      <h2 class="section-title" style="color:var(--warm-cream);">హృదయం <em>నుండి</em></h2>
+      <div class="ornament-line" style="max-width:200px;"><span style="color:var(--golden-light);">✦</span></div>
+    </div>
+
+    <div class="quotes-carousel fade-in" id="quotesCarousel">
+      <div class="quote-slide active">
+        <div class="quote-mark">&ldquo;</div>
+        <p class="quote-text">ఈ ప్రపంచంలో నాకు మీ హృదయం లాంటిది మరొకటి లేదు. ఈ ప్రపంచంలో మీకు నా ప్రేమ లాంటిది మరొకటి లేదు.</p>
+        <span class="quote-author">— మాయా ఏంజెలో</span>
+      </div>
+      <div class="quote-slide">
+        <div class="quote-mark">&ldquo;</div>
+        <p class="quote-text">విజయవంతమైన వివాహానికి అనేక సార్లు ప్రేమలో పడటం అవసరం, ఎల్లప్పుడూ అదే వ్యక్తితో.</p>
+        <span class="quote-author">— మిగ్నాన్ మెక్‌లాఫ్లిన్</span>
+      </div>
+      <div class="quote-slide">
+        <div class="quote-mark">&ldquo;</div>
+        <p class="quote-text">జీవితంలో పట్టుకోవడానికి అత్యుత్తమ విషయం ఒకరినొకరు.</p>
+        <span class="quote-author">— ఆడ్రీ హెప్బర్న్</span>
+      </div>
+      <div class="quote-slide">
+        <div class="quote-mark">&ldquo;</div>
+        <p class="quote-text">నాతో కలిసి వృద్ధులవ్వండి! ఉత్తమం ఇంకా రాబోతోంది, జీవితపు చివరి భాగం, దాని కోసమే మొదటిది సృష్టించబడింది.</p>
+        <span class="quote-author">— రాబర్ట్ బ్రౌనింగ్</span>
+      </div>
+    </div>
+
+    <div class="quote-dots" id="quoteDots">
+      <button class="quote-dot active" data-index="0"></button>
+      <button class="quote-dot" data-index="1"></button>
+      <button class="quote-dot" data-index="2"></button>
+      <button class="quote-dot" data-index="3"></button>
+    </div>
+  </section>
+
+  <!-- ═══════ OUR STORY / TIMELINE ═══════ -->
+  <section class="story-section" id="story">
+    <div class="section-header fade-in">
+      <p class="section-label">ప్రయాణం</p>
+      <h2 class="section-title">మా <em>కథ</em></h2>
+      <p class="section-desc">రెండు కుటుంబాలు ఒకటిగా మారడం నుండి, జీవితకాలం అందమైన జ్ఞాపకాల వరకు.</p>
+      <div class="ornament-line"><span>✦</span></div>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">ప్రారంభం</span>
+          <h3>రెండు కుటుంబాల కలయిక</h3>
+          <p>ఒక అందమైన పెళ్ళి రెండు ఆత్మలను ఒకటిగా చేసింది, సంప్రదాయంతో బంధించబడి, కుటుంబం ఆశీర్వదించి, జీవితకాలం ప్రేమ కోసం నిర్ణయించబడింది.</p>
+        </div>
+      </div>
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">పెళ్ళి</span>
+          <h3>పవిత్ర బంధం</h3>
+          <p>బంతి పూల మాలలు, పవిత్ర మంత్రాలు, ప్రియమైన వారి ఆప్యాయతల మధ్య, రెండు హృదయాలు ప్రేమ అంత శాశ్వతమైన వేడుకలో ఒకటయ్యాయి.</p>
+        </div>
+      </div>
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">కొత్త ప్రారంభాలు</span>
+          <h3>ఇల్లు నిర్మించడం</h3>
+          <p>ప్రేమే పునాదిగా, ప్రతి ఇటుక, ప్రతి గోడ కలిసి ఒక అందమైన కొత్త అధ్యాయానికి వేదికగా మారింది.</p>
+        </div>
+      </div>
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">పెరుగుతున్న కుటుంబం</span>
+          <h3>పిల్లల వరం</h3>
+          <p>చిన్న అడుగులు ఇంటిని నవ్వులతో, ఆనందంతో నింపాయి, ప్రతి సాధారణ రోజును అసాధారణ జ్ఞాపకంగా మార్చాయి.</p>
+        </div>
+      </div>
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">సంవత్సరాల గుండా</span>
+          <h3>వేడుకలు &amp; కలిసి ఉండటం</h3>
+          <p>దీపావళి సాయంత్రాల నుండి పుట్టినరోజు వేడుకల వరకు, ప్రశాంత సాయంత్రాల నుండి గొప్ప సమావేశాల వరకు — ప్రతి క్షణం ఒక అమూల్యమైన జ్ఞాపకంగా మారింది.</p>
+        </div>
+      </div>
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">ఈ రోజు &amp; ఎల్లప్పుడూ</span>
+          <h3>పెరుగుతున్న ప్రేమ</h3>
+          <p>సంవత్సరాలు గడిచాయి, కానీ ప్రేమ మరింత లోతుగా మారింది. ఈ వార్షికోత్సవం కేవలం ఒక రోజును కాదు, జీవితకాలం అచంచల భక్తిని జరుపుకుంటుంది.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ MILESTONES ═══════ -->
+  <section class="milestones-section" id="milestones">
+    <div class="section-header fade-in">
+      <p class="section-label">ఆశీర్వాదాలు లెక్కించడం</p>
+      <h2 class="section-title">కలిసి ఉన్న <em>సంవత్సరాలు</em></h2>
+      <p class="section-desc">మాటల కంటే గొప్ప కథను చెప్పే సంఖ్యలు.</p>
+      <div class="ornament-line"><span>✦</span></div>
+    </div>
+
+    <div class="milestones-grid">
+      <div class="milestone-card fade-in">
+        <div class="milestone-icon">💍</div>
+        <div class="milestone-number" id="milestoneYears" data-target="32">0</div>
+        <div class="milestone-label">కలిసి ఉన్న సంవత్సరాలు</div>
+      </div>
+      <div class="milestone-card fade-in fade-in-delay-1">
+        <div class="milestone-icon">🏡</div>
+        <div class="milestone-number" id="milestoneHomes" data-target="2">0</div>
+        <div class="milestone-label">నిర్మించిన ఇళ్ళు</div>
+      </div>
+      <div class="milestone-card fade-in fade-in-delay-2">
+        <div class="milestone-icon">👨‍👩‍👧‍👦</div>
+        <div class="milestone-number" id="milestoneChildren" data-target="2">0</div>
+        <div class="milestone-label">పెంచిన పిల్లలు</div>
+      </div>
+      <div class="milestone-card fade-in fade-in-delay-3">
+        <div class="milestone-icon">∞</div>
+        <div class="milestone-number no-count">∞</div>
+        <div class="milestone-label">సృష్టించిన జ్ఞాపకాలు</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ DEDICATION ═══════ -->
+  <section class="dedication-section" id="dedication">
+    <div class="section-header fade-in">
+      <p class="section-label">మా ప్రేమతో</p>
+      <h2 class="section-title">ఒక <em>అంకితం</em></h2>
+      <div class="ornament-line"><span>✦</span></div>
+    </div>
+
+    <div class="dedication-card fade-in">
+      <div class="large-quote">&ldquo;</div>
+      <p class="dedication-text" id="dedicationText"></p>
+      <div class="dedication-sign">
+        <span id="dedicationSignName">మా ప్రేమతో,</span>
+        <span id="dedicationSignFrom">మీ పిల్లలు</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ MORE ALBUMS SECTION ═══════ -->
+  <section class="albums-section" id="albums">
+    <div class="section-header fade-in">
+      <p class="section-label">మరిన్ని జ్ఞాపకాలు</p>
+      <h2 class="section-title">ఆల్బమ్ <em>గ్యాలరీలు</em></h2>
+      <p class="section-desc">మన కుటుంబ ప్రయాణంలోని ప్రతి అధ్యాయం ఇక్కడ ఉంది</p>
+      <div class="ornament-line"><span>✦</span></div>
+    </div>
+    <div class="album-cards" id="albumCards"></div>
+  </section>
+
+  <!-- ═══════ INDIVIDUAL ALBUM GALLERIES (lazy loaded) ═══════ -->
+  <div id="albumSections"></div>
+
+  <!-- ═══════ FOOTER ═══════ -->
+  <footer>
+    <div class="footer-logo">జీవిత<em>స్మృతులు</em></div>
+    <p class="footer-tagline">ప్రతి క్షణం ఎల్లప్పుడూ జీవించే చోటు</p>
+    <p style="font-size:0.85rem; margin-top:1rem;">
+      ప్రేమ బహుమతిగా <span class="footer-heart"> ప్రేమతో - ♥ </span> తో తయారు చేయబడింది
+    </p>
+  </footer>
+
+  <!-- ═══════ LIGHTBOX ═══════ -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+      <span class="lightbox-counter" id="lightboxCounterText"></span>
+      <button class="lightbox-close" id="lightboxClose">✕</button>
+      <button class="lightbox-nav lightbox-prev" id="lightboxPrev">‹</button>
+      <button class="lightbox-nav lightbox-next" id="lightboxNext">›</button>
+      <img src="" alt="" id="lightboxImg">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+      <div class="lightbox-sub" id="lightboxSub"></div>
+    </div>
+  </div>
+
+  <!-- ═══════ SCRIPTS ═══════ -->
+  <script src="photos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
